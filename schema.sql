@@ -1,3 +1,5 @@
+CREATE DATABASE todos;
+
 CREATE TABLE lists (
     id serial PRIMARY KEY,
     name text NOT NULL UNIQUE
