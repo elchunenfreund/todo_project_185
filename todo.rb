@@ -2,7 +2,7 @@ require "sinatra"
 require "sinatra/content_for"
 require "tilt/erubi"
 
-require_relative "database_persistance"
+require_relative "database_persistence"
 
 configure do
   enable :sessions
@@ -12,7 +12,7 @@ end
 
 configure(:development) do
   require "sinatra/reloader"
-  also_reload "database_persistance.rb"
+  also_reload "database_persistence.rb"
 end
 
 helpers do
