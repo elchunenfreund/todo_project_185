@@ -7,8 +7,12 @@ GEM
     multi_json (1.17.0)
     mustermann (3.0.4)
       ruby2_keywords (~> 0.0.1)
+    nio4r (2.7.4)
     pg (1.6.1)
     pg (1.6.1-arm64-darwin)
+    pg (1.6.1-x86_64-linux)
+    puma (6.6.1)
+      nio4r (~> 2.0)
     rack (3.2.0)
     rack-protection (4.1.1)
       base64 (>= 0.1.0)
@@ -37,10 +41,12 @@ GEM
 PLATFORMS
   arm64-darwin-22
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   erubi
   pg
+  puma
   sinatra
   sinatra-contrib
   webrick
