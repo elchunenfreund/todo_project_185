@@ -7,6 +7,8 @@ GEM
     multi_json (1.17.0)
     mustermann (3.0.4)
       ruby2_keywords (~> 0.0.1)
+    pg (1.6.1)
+    pg (1.6.1-arm64-darwin)
     rack (3.2.0)
     rack-protection (4.1.1)
       base64 (>= 0.1.0)
@@ -38,6 +40,7 @@ PLATFORMS
 
 DEPENDENCIES
   erubi
+  pg
   sinatra
   sinatra-contrib
   webrick
